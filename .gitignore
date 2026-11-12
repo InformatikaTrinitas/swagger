@@ -1,0 +1,19 @@
+# Dependensi
+node_modules/
+
+# Hasil build untuk deploy
+public/
+dist/
+
+# Dokumen dan Hasil Build Dokumen (LaTeX, PDF, DOCX)
+*.docx
+*.tex
+*.pdf
+
+# Berkas sistem & lock
+.DS_Store
+Thumbs.db
+.~lock.*#
+
+# Log
+*.log

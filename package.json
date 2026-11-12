@@ -1,0 +1,20 @@
+{
+  "name": "find-holiday-api-contract",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kontrak API dan simulasi Swagger untuk Find Holiday",
+  "scripts": {
+    "build": "node tools/build.mjs && node tools/bundle.mjs",
+    "docx": "node tools/docx.mjs",
+    "validate": "node tools/validate.mjs",
+    "serve": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "@apidevtools/swagger-parser": "^10.1.0",
+    "docx": "^9.15.0",
+    "js-yaml": "^4.1.0",
+    "marked": "^12.0.2",
+    "swagger-ui-dist": "^5.17.14"
+  }
+}
